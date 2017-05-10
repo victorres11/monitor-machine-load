@@ -1,0 +1,31 @@
+<h1>Machine Load Status Log</h1>
+
+<script type='text/javascript'>
+	function getMessages() {
+		var xhr = new XMLHttpRequest();
+		var messages = '';
+		
+		xhr.open('GET', '/uptime_stats')
+		xhr.setRequestHeader('Content-Type', 'application/json');
+
+		xhr.onload = function() {
+			
+			var messageText = '';
+		    if (xhr.status === 200) {
+		        messages = JSON.parse(xhr.responseText);
+		        
+		        for (i = messages['uptime_messages'].length - 1; i > 0; i--) { 
+				    messageText += messages['uptime_messages'][i] + "<br><br>";
+				}
+
+		        document.getElementById("messages").innerHTML = messageText;
+		    }
+		};
+		xhr.send();
+
+	}
+
+	getMessages()
+	setInterval(getMessages, 10000);
+</script>
+<p id='messages'></p>
