@@ -13,7 +13,6 @@ def uptime_stats():
 	with open('uptime_data.txt') as uptime_file:
 		uptime_data = uptime_file.readlines()
 
-
 	return jsonify({'uptime_messages': uptime_data})
 
 
