@@ -31,4 +31,4 @@ Webpage will serve at http://localhost:5000/
 
 
 Example of display:
-![alt-text](https://cl.ly/1G2g373m1h1n "Example of Monitor Machine Load webpage")
+![alt-text](https://d2ppvlu71ri8gs.cloudfront.net/items/1g3C1Y453r0S0R1X3f12/Screen%20Recording%202017-05-15%20at%2008.53%20PM.gif?v=268961e3 "Example of Monitor Machine Load webpage")
