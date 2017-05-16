@@ -19,14 +19,16 @@ Write unit tests for the alerting logic
 
 To run:
 
+Install requirements.txt to a new virtualenv
+
 From the root directory, run:
-`(monitor-machine-load) $: python server/uptime_status_process.py`
+```(monitor-machine-load) $: python server/uptime_status_process.py```
 
 In another terminal window, run:
-`(monitor-machine-load) $: python server/app.py
+```(monitor-machine-load) $: python server/app.py```
 
 Webpage will serve at http://localhost:5000/
 
 
 Example of display:
-(https://cl.ly/1G2g373m1h1n "Example of Monitor Machine Load webpage")
+![alt-text](https://cl.ly/1G2g373m1h1n "Example of Monitor Machine Load webpage")
