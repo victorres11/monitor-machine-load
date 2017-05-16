@@ -15,3 +15,18 @@ Whenever the load for the past 2 minutes exceeds 1 on average, add a message to 
 Whenever the load average drops again below 1 on average for the past 2 minutes, Add another message explaining when the alert recovered.
 
 Write unit tests for the alerting logic
+
+
+To run:
+
+From the root directory, run:
+`(monitor-machine-load) $: python server/uptime_status_process.py`
+
+In another terminal window, run:
+`(monitor-machine-load) $: python server/app.py
+
+Webpage will serve at http://localhost:5000/
+
+
+Example of display:
+(https://cl.ly/1G2g373m1h1n "Example of Monitor Machine Load webpage")
