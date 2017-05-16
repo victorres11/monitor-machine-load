@@ -22,13 +22,16 @@ To run:
 Install requirements.txt to a new virtualenv
 
 From the root directory, run:
+
 ```(monitor-machine-load) $: python server/uptime_status_process.py```
 
 In another terminal window, run:
+
 ```(monitor-machine-load) $: python server/app.py```
 
 Webpage will serve at http://localhost:5000/
 
 
 Example of display:
+
 ![alt-text](https://d2ppvlu71ri8gs.cloudfront.net/items/1g3C1Y453r0S0R1X3f12/Screen%20Recording%202017-05-15%20at%2008.53%20PM.gif?v=268961e3 "Example of Monitor Machine Load webpage")
