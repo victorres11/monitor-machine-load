@@ -42,8 +42,11 @@ Example of display:
 
 ## Files of interest:
 `server/app.py`: Initializes application and makes the index and uptime_stats endpoints available.
+
 `server/uptime_status.py`: The model for the UptimeStatus object used to collect and massage uptime data.
+
 `server/uptime_status_process.py`: A script that uses the UptimeStatus objects with the logic for the message and display logic to show, and writes it to the db (just a .txt file).
 
 `server/tests/test_uptime_stats.py`: Tests!
+
 `client/uptime_alerts.html`: very simple static page that displays the data made available from the '/uptime_stats' endpoint.
