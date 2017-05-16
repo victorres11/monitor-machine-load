@@ -17,7 +17,7 @@ Whenever the load average drops again below 1 on average for the past 2 minutes,
 Write unit tests for the alerting logic
 
 
-To run:
+##To run:
 
 Install requirements.txt to a new virtualenv
 
